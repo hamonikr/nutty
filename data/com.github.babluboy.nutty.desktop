@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=Nutty
+GenericName[ko]=네트워크 유틸리티
+Comment[ko]=네트워크 유틸리티
+GenericName=Network Utility
+GenericName[lt]=Tinklo paslaugų programa
+Comment=Displays network information
+Comment[lt]=Rodo tinklo informaciją
+Categories=Network;
+Exec=com.github.babluboy.nutty
+Icon=com.github.babluboy.nutty
+Terminal=false
+Type=Application
+X-GNOME-Gettext-Domain=nutty
+X-GNOME-Keywords=Nutty;Network;Utility;Traceroute;Ports;Devices

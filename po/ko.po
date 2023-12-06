@@ -1,0 +1,633 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: nutty\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Kevin Kim <chaeya@gmail.com>\n"
+"Language-Team: \n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#: src/nutty.vala:132
+msgid "Display version number"
+msgstr "버전 번호 표시"
+
+#: src/nutty.vala:133
+msgid "Run Nutty to discover devices"
+msgstr "Nutty를 실행하여 장치 검색"
+
+#: src/nutty.vala:134
+msgid "Run Nutty in device alert mode"
+msgstr "장치 경고 모드에서 Nutty 실행"
+
+#: src/nutty.vala:135
+msgid "Run Nutty in debug mode"
+msgstr "디버그 모드에서 Nutty 실행"
+
+#: src/nutty.vala:136
+msgid "Run Nutty in info mode"
+msgstr "정보 모드에서 Nutty를 실행"
+
+#: src/utils.vala:231
+msgid "Cancel"
+msgstr "취소"
+
+#: src/utils.vala:233
+msgid "Open"
+msgstr "열기"
+
+#: src/utils.vala:235
+msgid "Save"
+msgstr "저장"
+
+#: src/utils.vala:250
+msgid "All files"
+msgstr "모든 파일"
+
+#: src/utils.vala:253
+msgid "Text files"
+msgstr "텍스트 파일"
+
+#: src/constants.vala.in:28
+msgid "A Network Utility"
+msgstr "네트워크 유틸리티"
+
+#: src/constants.vala.in:30
+msgid "Weblate Translators"
+msgstr "웨블레이트 번역가"
+
+#: src/constants.vala.in:35
+msgid "Website | Translation | Bug Tracker"
+msgstr "웹사이트 | 번역 | 버그 추적기"
+
+#: src/constants.vala.in:67
+msgid "Network Scan Agreement"
+msgstr "네트워크 스캔 계약"
+
+#: src/constants.vala.in:68
+msgid ""
+"This application has features to perform port scanning and provide information on devices on the network you are using. It is perfectly OK to scan for devices on your own residential home network or when explicitly authorized by the destination host and/or network.\n"
+"\n"
+"While using port scan (Devices tab) on a network which you do not own please consult and get approval of the Network Administrator or other competent network authority."
+msgstr ""
+"이 애플리케이션에는 포트 스캔을 수행하고 사용 중인 네트워크의 장치에 대한 정보를 제공하는 기능이 있습니다. 자신의 주거용 홈 네트워크에 있거나 대상 호스트 및/또는 네트워크에서 명시적으로 승인한 경우 장치를 검색하는 것은 전혀 문제가 없습니다.\n"
+"\n"
+"자신이 소유하지 않은 네트워크에서 포트 스캔(장치 탭)을 사용하는 경우 네트워크 관리자 또는 기타 네트워크 관할 기관에 문의하고 승인을 받으십시오."
+
+#: src/constants.vala.in:69
+msgid "About"
+msgstr "프로그램 정보"
+
+#: src/constants.vala.in:70 data/com.github.babluboy.nutty.desktop.in:4
+msgid "Network Utility"
+msgstr "네트워크 유틸리티"
+
+#: src/constants.vala.in:71
+msgid "Filter results..."
+msgstr "결과 필터링..."
+
+#: src/constants.vala.in:72
+msgid "Preferences"
+msgstr "환경설정"
+
+#: src/constants.vala.in:73
+msgid "Export to File"
+msgstr "파일로 내보내기"
+
+#: src/constants.vala.in:74
+msgid "Nutty needs authentication to perform this action, please provide your password to continue."
+msgstr "Nutty가 이 작업을 수행하려면 인증이 필요합니다. 계속하려면 비밀번호를 입력하세요."
+
+#: src/constants.vala.in:75
+msgid ""
+"Nutty needs authentication to update the root scheduler(crontab) for device monitoring. Please provide your password to complete this change. \n"
+"\n"
+"Note: The current root scheduler (crontab) will be backed up to the home directory."
+msgstr ""
+"Nutty는 장치 모니터링을 위해 루트 스케줄러(crontab)를 업데이트하려면 인증이 필요합니다. 이 변경을 완료하려면 비밀번호를 입력하세요.\n"
+"\n"
+"참고: 현재 루트 스케줄러(crontab)는 홈 디렉터리에 백업됩니다."
+
+#: src/constants.vala.in:76 src/constants.vala.in:152
+msgid "Today"
+msgstr "오늘"
+
+#: src/constants.vala.in:77 src/constants.vala.in:151
+msgid "Yesterday"
+msgstr "어제"
+
+#: src/constants.vala.in:78
+msgid "days ago"
+msgstr "며칠 전에"
+
+#: src/constants.vala.in:79
+msgid "Results: "
+msgstr "결과: "
+
+#: src/constants.vala.in:80
+msgid "No data found"
+msgstr "데이터가 없습니다"
+
+#: src/constants.vala.in:81
+msgid "Not Available"
+msgstr "사용 불가"
+
+#: src/constants.vala.in:82
+msgid "I Agree"
+msgstr "동의함"
+
+#: src/constants.vala.in:83
+msgid "Wired"
+msgstr "유선"
+
+#: src/constants.vala.in:84
+msgid "Wireless"
+msgstr "무선"
+
+#: src/constants.vala.in:85
+msgid "Other"
+msgstr "기타"
+
+#: src/constants.vala.in:86
+msgid "My Info"
+msgstr "내 정보"
+
+#: src/constants.vala.in:87
+msgid "Select a connection"
+msgstr "연결 선택"
+
+#: src/constants.vala.in:88
+msgid "View Details"
+msgstr "세부 정보보기"
+
+#: src/constants.vala.in:89
+msgid "Attribute"
+msgstr "속성"
+
+#: src/constants.vala.in:90
+msgid "Details"
+msgstr "세부"
+
+#: src/constants.vala.in:91
+msgid "Host Name"
+msgstr "호스트 이름"
+
+#: src/constants.vala.in:92
+msgid "MAC Address"
+msgstr "MAC 주소"
+
+#: src/constants.vala.in:93
+msgid "IP Address"
+msgstr "IP 주소"
+
+#: src/constants.vala.in:94
+msgid "IPv6 Address"
+msgstr "IPv6 주소"
+
+#: src/constants.vala.in:95
+msgid "Interface State"
+msgstr "인터페이스 상태"
+
+#: src/constants.vala.in:96
+msgid "Interface Hardware"
+msgstr "인터페이스 하드웨어"
+
+#: src/constants.vala.in:97
+msgid "Product"
+msgstr "제품"
+
+#: src/constants.vala.in:98
+msgid "Vendor"
+msgstr "공급업체"
+
+#: src/constants.vala.in:99
+msgid "Physical ID"
+msgstr "실제 신분증"
+
+#: src/constants.vala.in:100
+msgid "Bus Info"
+msgstr "버스정보"
+
+#: src/constants.vala.in:101
+msgid "Version"
+msgstr "버전"
+
+#: src/constants.vala.in:102
+msgid "Capacity"
+msgstr "용량"
+
+#: src/constants.vala.in:103
+msgid "Bus Width"
+msgstr "버스 폭"
+
+#: src/constants.vala.in:104
+msgid "Clock Speed"
+msgstr "클럭"
+
+#: src/constants.vala.in:105
+msgid "Speed"
+msgstr "속도"
+
+#: src/constants.vala.in:106
+msgid "Route times to Host (in milliseconds): "
+msgstr "호스트로의 라우팅 시간(밀리초): "
+
+#: src/constants.vala.in:107
+msgid "Hop#"
+msgstr "경유#"
+
+#: src/constants.vala.in:108
+msgid "Server IP"
+msgstr "서버 IP"
+
+#: src/constants.vala.in:109
+msgid "Server Name"
+msgstr "서버 이름"
+
+#: src/constants.vala.in:110
+msgid "1st Packet Time"
+msgstr "첫 번째 패킷 시간"
+
+#: src/constants.vala.in:111
+msgid "2nd Packet Time"
+msgstr "두 번째 패킷 시간"
+
+#: src/constants.vala.in:112
+msgid "3rd Packet Time"
+msgstr "세 번째 패킷 시간"
+
+#: src/constants.vala.in:113
+msgid "Internet Speed : Results from test on"
+msgstr "인터넷 속도 : 테스트 결과"
+
+#: src/constants.vala.in:114
+msgid "No speed test has been done"
+msgstr "속도 테스트는 수행되지 않았습니다"
+
+#: src/constants.vala.in:115
+msgid "Upload Speed"
+msgstr "업로드 속도"
+
+#: src/constants.vala.in:116
+msgid "Download Speed"
+msgstr "다운로드 속도"
+
+#: src/constants.vala.in:117
+msgid "Refresh Speed Test Results"
+msgstr "새로 고침 속도 테스트 결과"
+
+#: src/constants.vala.in:118
+msgid "Unknown Date. Please click Refresh Button to perform Speed Test"
+msgstr "날짜를 알 수 없습니다. 속도 테스트를 수행하려면 새로 고침 버튼을 클릭하세요."
+
+#: src/constants.vala.in:119
+msgid "Ports"
+msgstr "포트"
+
+#: src/constants.vala.in:120
+msgid "All active ports scanned."
+msgstr "모든 활성 포트가 검색되었습니다."
+
+#: src/constants.vala.in:121
+msgid "Refresh Ports results"
+msgstr "포트 결과 새로 고침"
+
+#: src/constants.vala.in:122
+msgid "Protocol"
+msgstr "프로토콜"
+
+#: src/constants.vala.in:123
+msgid "State"
+msgstr "상태"
+
+#: src/constants.vala.in:124
+msgid "Port"
+msgstr "포트"
+
+#: src/constants.vala.in:125
+msgid "Process ID"
+msgstr "프로세스 ID"
+
+#: src/constants.vala.in:126
+msgid "Program Name"
+msgstr "프로그램 이름"
+
+#: src/constants.vala.in:127
+msgid "Path"
+msgstr "경로"
+
+#: src/constants.vala.in:128
+msgid "Devices"
+msgstr "장치"
+
+#: src/constants.vala.in:129
+msgid "Refresh device scan results"
+msgstr "장치 검색 결과 새로 고침"
+
+#: src/constants.vala.in:130
+msgid "Status"
+msgstr "상태"
+
+#: src/constants.vala.in:131
+msgid "Device Name"
+msgstr "장치 이름"
+
+#: src/constants.vala.in:132
+msgid "Device Manufacturer"
+msgstr "장치 제조업체"
+
+#: src/constants.vala.in:133
+msgid "Last Seen"
+msgstr "마지막 확인시간"
+
+#: src/constants.vala.in:134
+msgid "Discovered On"
+msgstr "발견 날짜"
+
+#: src/constants.vala.in:135
+msgid "Host IP"
+msgstr "호스트 IP"
+
+#: src/constants.vala.in:136
+msgid "Host MAC"
+msgstr "호스트 MAC"
+
+#: src/constants.vala.in:137
+msgid "Active"
+msgstr "활성"
+
+#: src/constants.vala.in:138
+msgid "Non Active"
+msgstr "비활성"
+
+#: src/constants.vala.in:139
+msgid "Discovered Earlier"
+msgstr "이전에 발견됨"
+
+#: src/constants.vala.in:140
+msgid "Displaying devices recorded earlier. Select a connection to update status."
+msgstr "이전에 기록된 장치를 표시합니다. 상태를 업데이트하려면 연결을 선택하세요."
+
+#: src/constants.vala.in:141
+msgid "No devices have been recorded earlier. Select a connection to update results."
+msgstr "이전에 기록된 장치가 없습니다. 결과를 업데이트하려면 연결을 선택하세요."
+
+#: src/constants.vala.in:142
+msgid "Device scan in progress ..."
+msgstr "장치 검사 진행 중..."
+
+#: src/constants.vala.in:143
+msgid "devices found on this connection"
+msgstr "이 연결에서 발견된 장치"
+
+#: src/constants.vala.in:144
+msgid "Actions for : "
+msgstr "다음에 대한 작업: "
+
+#: src/constants.vala.in:145
+msgid "Forget device"
+msgstr "기기 잊어버리기"
+
+#: src/constants.vala.in:146
+msgid "New Device found on network:"
+msgstr "네트워크에서 새 장치 발견:"
+
+#: src/constants.vala.in:147
+msgid "Usage"
+msgstr "용법"
+
+#: src/constants.vala.in:148
+msgid "Connection monitored from "
+msgstr "다음에서 모니터링되는 연결 "
+
+#: src/constants.vala.in:149
+msgid " and last updated on "
+msgstr " 마지막 업데이트 날짜: "
+
+#: src/constants.vala.in:150
+msgid "Please add this connection interface to vnstat using command line."
+msgstr "명령줄을 사용하여 이 연결 인터페이스를 vnstat에 추가하세요."
+
+#: src/constants.vala.in:153
+msgid "Time Period"
+msgstr "기간"
+
+#: src/constants.vala.in:154
+msgid "Data Received"
+msgstr "데이터 수신 됨"
+
+#: src/constants.vala.in:155
+msgid "Data Sent"
+msgstr "전송된 데이터"
+
+#: src/constants.vala.in:156
+msgid "Total Data"
+msgstr "총 데이터"
+
+#: src/constants.vala.in:157
+msgid "Select a connection to view data usage"
+msgstr "데이터 사용량을 보려면 연결을 선택하세요."
+
+#: src/constants.vala.in:158
+msgid "Click refresh to see current Apps using "
+msgstr "현재 사용 중인 앱을 보려면 새로고침을 클릭하세요. "
+
+#: src/constants.vala.in:159
+msgid "Refresh Apps bandwidth usage"
+msgstr "앱 대역폭 사용량 새로 고침"
+
+#: src/constants.vala.in:160
+msgid "Name"
+msgstr "이름"
+
+#: src/constants.vala.in:161
+msgid "Data Sent (Kb/sec)"
+msgstr "전송된 데이터(KB/초)"
+
+#: src/constants.vala.in:162
+msgid "Data Received (Kb/sec)"
+msgstr "수신된 데이터(Kb/초)"
+
+#: src/constants.vala.in:163
+msgid "Background Device Monitoring"
+msgstr "백그라운드 장치 모니터링"
+
+#: src/constants.vala.in:164
+msgid "No monitoring of devices"
+msgstr "장치 모니터링 없음"
+
+#: src/constants.vala.in:165
+msgid "Monitor devices every 15 minutes"
+msgstr "15분마다 장치 모니터링"
+
+#: src/constants.vala.in:166
+msgid "Monitor devices every 30 minutes"
+msgstr "30분마다 장치 모니터링"
+
+#: src/constants.vala.in:167
+msgid "Monitor devices every hour"
+msgstr "매시간 장치 모니터링"
+
+#: src/constants.vala.in:168
+msgid "Monitor devices once a day"
+msgstr "하루에 한 번 장치 모니터링"
+
+#: src/constants.vala.in:169
+msgid "Close"
+msgstr "닫기"
+
+#: src/constants.vala.in:170
+msgid "DEVICE_MONITORING_STATE"
+msgstr "DEVICE_MONITORING_STATE"
+
+#: src/constants.vala.in:171
+msgid "DEVICE_MONITORING_SCHEDULE"
+msgstr "DEVICE_MONITORING_SCHEDULE"
+
+#: src/constants.vala.in:172
+msgid "SPEEDTEST_DATE"
+msgstr "SPEEDTEST_DATE"
+
+#: src/constants.vala.in:173
+msgid "SPEEDTEST_UPLOADSPEED"
+msgstr "SPEEDTEST_UPLOADSPEED"
+
+#: src/constants.vala.in:174
+msgid "SPEEDTEST_DOWNLOADSPEED"
+msgstr "SPEEDTEST_DOWNLOADSPEED"
+
+#: src/constants.vala.in:175
+msgid "Nutty Information Exported on "
+msgstr "다음으로 내보낸 Nutty 정보 "
+
+#: src/devices.vala:318
+msgid " for "
+msgstr " 을 위한 "
+
+#: src/info.vala:174
+msgid "Network Card"
+msgstr "네트워크 카드"
+
+#: src/info.vala:174
+msgid " Standards with Transmit Power of "
+msgstr " 전송 전력이 다음과 같은 표준 "
+
+#: src/info.vala:174
+msgid " [Power Management: "
+msgstr " [전원 관리: "
+
+#: src/info.vala:177
+msgid "Connected to"
+msgstr "연결됨"
+
+#: src/info.vala:177
+msgid " Network at Access Point "
+msgstr " 액세스 포인트의 네트워크 "
+
+#: src/info.vala:177
+msgid " Mode"
+msgstr " 모드"
+
+#: src/info.vala:180
+msgid "Connected with"
+msgstr "연결된"
+
+#: src/info.vala:180
+msgid "Frequency of "
+msgstr "빈도 "
+
+#: src/info.vala:180
+msgid " and Bit Rate of "
+msgstr " 및 비트 전송률 "
+
+#: src/info.vala:183
+msgid "Connection strength"
+msgstr "연결 강도"
+
+#: src/info.vala:183
+msgid "Link Quality of "
+msgstr "링크 품질 "
+
+#: src/info.vala:183
+msgid " and Signal Level of "
+msgstr " 및 신호 레벨 "
+
+#: src/window.vala:47
+msgid "Nutty Disclaimer"
+msgstr "면책 조항"
+
+#: src/window.vala:48
+msgid "Click to read the legal disclaimer on Nmap (used by Nutty) for further information"
+msgstr "자세한 내용을 보려면 클릭하여 Nmap(Nutty에서 사용)의 법적 고지 사항을 읽어보세요."
+
+#: src/window.vala:63
+msgid "Use Nutty"
+msgstr "Nutty를 사용하세요"
+
+#: src/window.vala:66
+msgid "Exit"
+msgstr "나가기"
+
+#: data/com.github.babluboy.nutty.desktop.in:3
+#: data/com.github.babluboy.nutty.appdata.xml.in:7
+msgid "Nutty"
+msgstr "네트워크 도구 Nutty"
+
+#: data/com.github.babluboy.nutty.desktop.in:5
+msgid "Displays network information"
+msgstr "네트워크 정보를 표시합니다."
+
+#: data/com.github.babluboy.nutty.desktop.in:8
+msgid "com.github.babluboy.nutty"
+msgstr "com.github.baluboy.nutty"
+
+#: data/com.github.babluboy.nutty.appdata.xml.in:9
+msgid "A simple utility for network information"
+msgstr "네트워크 정보를 위한 간단한 유틸리티"
+
+#: data/com.github.babluboy.nutty.appdata.xml.in:11
+msgid "Nutty provides an intuitive user interface for some commonly used network related command line tools."
+msgstr "Nutty는 일반적으로 사용되는 일부 네트워크 관련 명령줄 도구에 대한 직관적인 사용자 인터페이스를 제공합니다."
+
+#: data/com.github.babluboy.nutty.appdata.xml.in:12
+msgid "A key feature is the ability to turn on notification when a device enters the user's network."
+msgstr "주요 기능은 장치가 사용자의 네트워크에 진입할 때 알림을 켜는 기능입니다."
+
+#: data/com.github.babluboy.nutty.appdata.xml.in:15
+msgid "My Info: Provides basic and detailed information for the device network card"
+msgstr "내 정보: 장치 네트워크 카드에 대한 기본 및 세부 정보를 제공합니다."
+
+#: data/com.github.babluboy.nutty.appdata.xml.in:16
+msgid "Usage: Provides network data usage in two views - historical usage and current usage"
+msgstr "사용량: 과거 사용량과 현재 사용량이라는 두 가지 보기로 네트워크 데이터 사용량을 제공합니다."
+
+#: data/com.github.babluboy.nutty.appdata.xml.in:17
+msgid "Speed: Check Upload and Download speeds and get route times to a host"
+msgstr "속도: 업로드 및 다운로드 속도를 확인하고 호스트까지의 경로 시간을 가져옵니다."
+
+#: data/com.github.babluboy.nutty.appdata.xml.in:18
+msgid "Ports: Provides information on active ports and application using them on the local device"
+msgstr "포트: 로컬 장치에서 활성화된 포트 및 이를 사용하는 애플리케이션에 대한 정보를 제공합니다."
+
+#: data/com.github.babluboy.nutty.appdata.xml.in:19
+msgid "Devices: Monitors, alerts and provides information on the other devices on the network"
+msgstr "장치: 네트워크의 다른 장치에 대한 모니터링, 경고 및 정보 제공"
+
+#: data/com.github.babluboy.nutty.appdata.xml.in:25
+msgid "Device Monitoring"
+msgstr "장치 모니터링"
+
+#: data/com.github.babluboy.nutty.appdata.xml.in:29
+msgid "Bandwidth Usage"
+msgstr "대역폭 사용량"
+
+#: data/com.github.babluboy.nutty.appdata.xml.in:33
+msgid "Speed Test"
+msgstr "속도 테스트"
+
+#: data/com.github.babluboy.nutty.appdata.xml.in:72
+msgid "Siddhartha Das"
+msgstr "Siddhartha Das"

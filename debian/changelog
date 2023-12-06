@@ -1,0 +1,8 @@
+nutty (1.1.1+hamonikr1) stable; urgency=medium
+
+  [Kevin Kim]
+  * Release on HamoniKR 7.0
+   - Update ko.po
+   - Applied latest upstream source  
+
+ -- HamoniKR <pkg@hamonikr.org>  Wed, 29 Nov 2023 22:27:57 +0900
