@@ -1,3 +1,11 @@
+nutty (1.1.1+hamonikr2) stable; urgency=medium
+
+  [Kevin Kim]
+  * Fixed speedtest-cli bug
+   - Replaced to use speedtest-cli package instead of previous file
+
+ -- HamoniKR <pkg@hamonikr.org>  Thu, 07 Dec 2023 21:36:39 +0900
+
 nutty (1.1.1+hamonikr1) stable; urgency=medium
 
   [Kevin Kim]
